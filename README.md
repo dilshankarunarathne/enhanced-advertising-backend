@@ -9,7 +9,7 @@ The server side application source for Enhanced Advertising system.
 
 - Python 3.8 or higher
 - pip 20.0 or higher
-- fastapi
+- [fastapi]
 - uvicorn
 - pydantic
 - starlette
