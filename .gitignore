@@ -152,4 +152,4 @@ cython_debug/
 .idea/
 classifier/models/age_net.caffemodel
 classifier/models/gender_net.caffemodel
-classifier/shape_predictor_68_face_landmarks.dat
+classifier/models/shape_predictor_68_face_landmarks.dat
