@@ -29,4 +29,4 @@ async def evaluate_image(
 
     age, gender = classifier.predict_age_and_gender(contents)
 
-    return "{age: ", age, ", gender: ", gender, "}"  # TODO: return ad data as well
+    return "{age: ", age, ", gender: ", gender, "}" 
