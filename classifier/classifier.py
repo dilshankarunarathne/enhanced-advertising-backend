@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 age_net_caffemodel = "models/age_net.caffemodel"
+
 age_net_prototxt = "prototxt/age_deploy.prototxt"
 
 age_net = cv2.dnn.readNetFromCaffe("age_deploy.prototxt", "age_net.caffemodel")
