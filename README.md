@@ -13,7 +13,7 @@ The server side application source for Enhanced Advertising system.
 - [uvicorn](https://www.uvicorn.org/)
 - [pydantic](https://pydantic-docs.helpmanual.io/)
 - [starlette](https://www.starlette.io/)
-- [passlib]()
+- [passlib](https://passlib.readthedocs.io/en/stable/)
 - mysql
 - mysql-connector-python
 - python-jose[cryptography]
