@@ -31,6 +31,6 @@ async def evaluate_image(
     with open("D:/image.jpg", "wb") as f:
         f.write(contents)
 
-    age, gender = classifier.classifier.predict_age_and_gender()
+    age, gender = predict_age_and_gender(contents)
 
     return "{age: ", age, ", gender: ", gender, "}"  # TODO: return ad data as well
