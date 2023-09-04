@@ -14,7 +14,7 @@ The server side application source for Enhanced Advertising system.
 - [pydantic](https://pydantic-docs.helpmanual.io/)
 - [starlette](https://www.starlette.io/)
 - [passlib](https://passlib.readthedocs.io/en/stable/)
-- mysql
+- [mysql]
 - mysql-connector-python
 - python-jose[cryptography]
 - [TensorFlow](https://www.tensorflow.org/)
