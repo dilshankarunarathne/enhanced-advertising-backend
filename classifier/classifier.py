@@ -5,7 +5,7 @@ age_net_caffemodel = "models/age_net.caffemodel"
 gender_net_caffemodel = "models/gender_net.caffemodel"
 
 age_net_prototxt = "prototxt/age_deploy.prototxt"
-gender_net_prototxt = "prototxt/age_deploy.prototxt"
+gender_net_prototxt = "prototxt/gender_deploy.prototxt"
 
 age_net = cv2.dnn.readNetFromCaffe("age_deploy.prototxt", "age_net.caffemodel")
 gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caffemodel")
