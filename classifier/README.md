@@ -11,16 +11,8 @@ Additionally, it includes support for using Caffe models for age and gender esti
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact Information](#contact-information)
-
-## Dependencies
-
-- [TensorFlow](https://www.tensorflow.org/)
-- [OpenCV](https://opencv.org/)
-- [Caffe](https://caffe.berkeleyvision.org/)
-- [NumPy](https://numpy.org/)
 
 ## Contributing
 
