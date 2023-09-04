@@ -9,7 +9,6 @@ Additionally, it includes support for using Caffe models for age and gender esti
 
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Dependencies](#dependencies)
 - [License](#license)
 - [Contact Information](#contact-information)
