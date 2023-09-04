@@ -9,7 +9,6 @@ gender_labels = ["Male", "Female"]
 
 
 def predict_age_and_gender(image):
-
     blob = cv2.dnn.blobFromImage(
         image,
         1.0,
