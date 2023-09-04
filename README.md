@@ -12,7 +12,7 @@ The server side application source for Enhanced Advertising system.
 - [fastapi](https://fastapi.tiangolo.com/)
 - [uvicorn](https://www.uvicorn.org/)
 - [pydantic](https://pydantic-docs.helpmanual.io/)
-- [starlette]()
+- [starlette](https://www.starlette.io/)
 - passlib
 - mysql
 - mysql-connector-python
