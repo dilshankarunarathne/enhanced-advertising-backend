@@ -1,2 +1,2 @@
 # 
- The server side application source for Enhanced Advertising system.
+The server side application source for Enhanced Advertising system.
