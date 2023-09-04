@@ -17,6 +17,10 @@ The server side application source for Enhanced Advertising system.
 - mysql
 - mysql-connector-python
 - python-jose[cryptography]
+- [TensorFlow](https://www.tensorflow.org/)
+- [OpenCV](https://opencv.org/)
+- [Caffe](https://caffe.berkeleyvision.org/)
+- [NumPy](https://numpy.org/)
 
 ## Contributing
 
