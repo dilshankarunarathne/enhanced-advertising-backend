@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-age_net_caffemodel = "age_net.caffemodel"
+age_net_caffemodel = "models/age_net.caffemodel"
 
 age_net = cv2.dnn.readNetFromCaffe("age_deploy.prototxt", "age_net.caffemodel")
 gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caffemodel")
