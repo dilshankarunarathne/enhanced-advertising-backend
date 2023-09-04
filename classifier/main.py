@@ -12,6 +12,7 @@ gender_labels = ["Male", "Female"]
 # Load the image using OpenCV
 image = cv2.imread("image.jpg")
 
+
 # Define a function to predict age and gender
 def predict_age_and_gender(image):
     # Resize the image to the input size expected by the models
