@@ -8,7 +8,7 @@ The server side application source for Enhanced Advertising system.
 ### Prerequisites
 
 - Python 3.8 or higher
-- [pip]
+- [pip](https://pip.pypa.io/en/stable/)
 - [fastapi](https://fastapi.tiangolo.com/)
 - [uvicorn](https://www.uvicorn.org/)
 - [pydantic](https://pydantic-docs.helpmanual.io/)
