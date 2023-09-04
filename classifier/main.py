@@ -17,7 +17,6 @@ def predict_age_and_gender(image):
     age_preds = age_net.forward()
     age = age_ranges[np.argmax(age_preds)]
 
-    # Predict gender
     gender_net.setInput(blob)
     gender_preds = gender_net.forward()
     gender = gender_labels[np.argmax(gender_preds)]
