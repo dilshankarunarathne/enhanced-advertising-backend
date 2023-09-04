@@ -32,5 +32,4 @@ async def evaluate_image(
 
     age, gender =
 
-
     return "{age: ", age, ", gender: ", gender, "}"  # TODO: return ad data as well
