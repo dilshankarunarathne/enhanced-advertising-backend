@@ -17,7 +17,7 @@ def predict_age_and_gender(image):
         (227, 227),
         (78.4263377603, 87.7689143744, 114.895847746),
         swapRB=False
-    )
+)
 
     age_net.setInput(blob)
     age_preds = age_net.forward()
