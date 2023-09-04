@@ -30,6 +30,6 @@ async def evaluate_image(
     with open("D:/image.jpg", "wb") as f:
         f.write(contents)
 
-    age, gender =
+    age, gender = 
 
     return "{age: ", age, ", gender: ", gender, "}"  # TODO: return ad data as well
