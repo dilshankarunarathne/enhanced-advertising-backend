@@ -1,6 +1,6 @@
 from fastapi import APIRouter, UploadFile, File, Depends
 
-import classifier.classifier
+from classifier import classifier
 from app.security.authorize import get_current_user, credentials_exception, oauth2_scheme
 
 """
@@ -31,6 +31,6 @@ async def evaluate_image(
     with open("D:/image.jpg", "wb") as f:
         f.write(contents)
 
-    age, gender = predict_age_and_gender(contents)
+    age, gender = classifier.predict_age_and_gender(contents)
 
     return "{age: ", age, ", gender: ", gender, "}"  # TODO: return ad data as well
