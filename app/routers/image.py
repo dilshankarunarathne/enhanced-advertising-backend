@@ -27,10 +27,6 @@ async def evaluate_image(
 
     contents = await image.read()
 
-    # TODO: send image to model for evaluation
-    with open("D:/image.jpg", "wb") as f:
-        f.write(contents)
-
     age, gender = classifier.predict_age_and_gender(contents)
 
     return "{age: ", age, ", gender: ", gender, "}"  # TODO: return ad data as well
