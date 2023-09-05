@@ -10,5 +10,5 @@ def predict_interest(age_group: str, gender_string: str) -> str:
     else:
         raise ValueError
 
-    
+    recommend_topic(age, gender)
 
