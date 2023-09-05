@@ -18,6 +18,7 @@ def predict_interest(age_group: str, gender_string: str) -> str:
         age = 2
     elif age_group == '(4-6)':
         age = 6
+        
 
     return recommend_topic(age, gender)
 
