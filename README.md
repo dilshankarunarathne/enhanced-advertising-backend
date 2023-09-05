@@ -25,7 +25,7 @@ The server side application for Enhanced Advertising system.
 - scikit-learn~=1.3.0
 - 
 
-tensorflow~=2.13.0
+
 pandas~=2.0.3
 
 ## Contributing
