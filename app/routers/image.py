@@ -33,4 +33,4 @@ async def evaluate_image(
 
     age, gender = main.predict_age_and_gender(img)
 
-    return "{age: ", age, ", gender: ", gender, "}"
+    return age, gender
