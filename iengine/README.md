@@ -7,6 +7,37 @@ This model is able to predict 31 unique topics with an accuracy of 0.85.
 
 ## Interests that can be Predicted
 
+sports
+fashion
+music
+travel
+food
+technology
+business
+art
+books
+video games
+movies
+science
+politics
+animals
+health
+news
+education
+environment
+history
+philosophy
+cooking
+gaming
+social media
+humor
+religion
+food and cooking
+fitness
+art and design
+health and wellness
+diy and crafts
+photography
 
 
 ## Contributing
