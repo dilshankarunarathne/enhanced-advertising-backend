@@ -11,7 +11,7 @@ gender_net_prototxt_path = os.path.join(os.path.dirname(__file__), '../prototxt/
 age_net = cv2.dnn.readNetFromCaffe(age_net_prototxt_path, age_net_caffemodel_path)
 
 gender_net = cv2.dnn.readNetFromCaffe(
-    ,
+    gender_net_prototxt_path,
     gender_net_caffemodel_path
 )
 
