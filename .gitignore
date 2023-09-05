@@ -153,8 +153,8 @@ cython_debug/
 app/classifier/models/age_net.caffemodel
 app/classifier/models/gender_net.caffemodel
 app/classifier/models/shape_predictor_68_face_landmarks.dat
-classifiers/age_net.caffemodel
-classifiers/gender_net.caffemodel
-classifiers/image.jpg
+classifier/age_net.caffemodel
+classifier/gender_net.caffemodel
+classifier/image.jpg
 models/age_net.caffemodel
 models/gender_net.caffemodel

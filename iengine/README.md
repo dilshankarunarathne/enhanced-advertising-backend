@@ -1,30 +1,43 @@
-# Enhanced Advertising 
-
-The server side application for Enhanced Advertising system.
+# Ad Topic Recommendation System 
+An AI model for suggesting interested topics for social media advertising, based on the user's age and gender.  
+This model is able to predict 31 unique topics with an accuracy of 0.85.
 
 [![Version](https://img.shields.io/badge/version-0.1-brightgreen.svg)](https://pypi.org/project/ad-topic-recommender/)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-### Prerequisites
+## Interests that can be Predicted
 
-- [Python](https://www.python.org/) 3.7 or higher (tested with Python 3.11)
-- [pip](https://pip.pypa.io/en/stable/) 20.0 or higher
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Uvicorn](https://www.uvicorn.org/)
-- [Pydantic](https://pydantic-docs.helpmanual.io/)
-- [Starlette](https://www.starlette.io/)
-- [Passlib](https://passlib.readthedocs.io/en/stable/)
-- [MySQL](https://www.mysql.com/)
-- [mysql-connector-python](https://dev.mysql.com/doc/connector-python/en/)
-- [Jose](https://python-jose.readthedocs.io/en/latest/)
-- [TensorFlow](https://www.tensorflow.org/)
-- [OpenCV](https://opencv.org/)
-- [Caffe](https://caffe.berkeleyvision.org/)
-- [NumPy](https://numpy.org/)
-- [Joblib](https://joblib.readthedocs.io/en/latest/)
-- [scikit-learn](https://scikit-learn.org/stable/)
-- [TensorFlow](https://www.tensorflow.org/)
-- [Pandas](https://pandas.pydata.org/)
+- sports
+- fashion
+- music
+- travel
+- food
+- technology
+- business
+- art
+- books
+- video games
+- movies
+- science
+- politics
+- animals
+- health
+- news
+- education
+- environment
+- history
+- philosophy
+- cooking
+- gaming
+- social media
+- humor
+- religion
+- food and cooking
+- fitness
+- art and design
+- health and wellness
+- diy and crafts
+- photography
 
 ## Contributing
 

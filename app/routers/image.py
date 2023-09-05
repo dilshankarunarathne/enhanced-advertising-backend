@@ -3,7 +3,8 @@ import numpy as np
 from fastapi import APIRouter, UploadFile, File, Depends
 
 from app.security.authorize import get_current_user, credentials_exception, oauth2_scheme
-from classifiers import main
+import classifier.main as classifier
+from iengine.recommender import predict_interest
 
 """
     routers for image evaluation
@@ -31,6 +32,8 @@ async def evaluate_image(
     nparray = np.fromstring(contents, np.uint8)
     img = cv2.imdecode(nparray, cv2.IMREAD_COLOR)
 
-    age, gender = main.predict_age_and_gender(img)
+    age, gender = classifier.predict_age_and_gender(img)
 
-    return age, gender
+    recommended_interest = predict_interest(age, gender)
+
+    return age, gender, recommended_interest
