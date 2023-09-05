@@ -34,6 +34,6 @@ async def evaluate_image(
 
     age, gender = classifier.predict_age_and_gender(img)
 
-    recommended_interest = recommend_topic(age, gender)
+    recommended_interest = interest_recommender.recommend_topic(age, gender)
 
     return age, gender
