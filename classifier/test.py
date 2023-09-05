@@ -9,7 +9,6 @@ gender_labels = ["Male", "Female"]
 
 image = cv2.imread("image.jpg")
 
-# Define a function to predict age and gender
 def predict_age_and_gender(image):
     # Resize the image to the input size expected by the models
     blob = cv2.dnn.blobFromImage(image, 1.0, (227, 227), (78.4263377603, 87.7689143744, 114.895847746), swapRB=False)
