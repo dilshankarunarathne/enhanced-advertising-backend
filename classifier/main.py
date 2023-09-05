@@ -2,9 +2,11 @@ import cv2
 import numpy as np
 import os
 
+age_net_caffemodel_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'age_net.caffemodel')
+
 age_net = cv2.dnn.readNetFromCaffe(os.path.join(os.path.dirname(__file__), 'age_deploy.prototxt'), age_net_caffemodel_path)
 
-gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caffemodel")
+gender_net = cv2.dnn.readNetFromCaffe(os.path.join(os.path.dirname(__file__), 'gender_deploy.prototxt'), os.path.join(os.path.dirname(__file__), 'gender_net.caffemodel'))
 
 age_ranges = ["(0-2)", "(4-6)", "(8-12)", "(15-20)", "(25-32)", "(38-43)", "(48-53)", "(60-100)"]
 gender_labels = ["Male", "Female"]
