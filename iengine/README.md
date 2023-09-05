@@ -4,23 +4,6 @@
 [![Version](https://img.shields.io/badge/version-0.1-brightgreen.svg)](https://pypi.org/project/ad-topic-recommender/)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Command Line Interface](#command-line-interface)
-  - [Python Library](#python-library)
-- [Example](#example)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact Information](#contact-information)
-
-## Introduction
-
-The `ad_topic_recommender` package is a simple tool that recommends interesting topics based on a person's age and gender. This documentation provides information on how to install and use the package, along with examples and other relevant details.
-
 
 
 ## Contributing
