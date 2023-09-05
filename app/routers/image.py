@@ -27,6 +27,6 @@ async def evaluate_image(
 
     contents = await image.read()
 
-    age, gender = classifier.main.predict_age_and_gender(contents)
+    age, gender = main.predict_age_and_gender(contents)
 
     return "{age: ", age, ", gender: ", gender, "}"
