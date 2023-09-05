@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-# Load the pre-trained Caffe models for age and gender
 age_net = cv2.dnn.readNetFromCaffe("age_deploy.prototxt", "age_net.caffemodel")
 gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caffemodel")
 
