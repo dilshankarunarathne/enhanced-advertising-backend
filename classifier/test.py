@@ -8,7 +8,6 @@ age_ranges = ["(0-2)", "(4-6)", "(8-12)", "(15-20)", "(25-32)", "(38-43)", "(48-
 gender_labels = ["Male", "Female"]
 
 
-
 def predict_age_and_gender(image):
     blob = cv2.dnn.blobFromImage(image, 1.0, (227, 227), (78.4263377603, 87.7689143744, 114.895847746), swapRB=False)
 
