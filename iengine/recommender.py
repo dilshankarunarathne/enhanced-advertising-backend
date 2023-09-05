@@ -5,5 +5,5 @@ def predict_interest(age_group: str, gender_string: str) -> str:
     # parse gender
     if gender_string == 'Male':
         gender = 'M'
-    elif gender_string == 
+    elif gender_string == 'Female':
 
