@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-prototext_path = os.path.join
+prototext_path = os.path.join((os.path.dirname(__file__), '..', 'models', 'age_net.caffemodel'))
 
 age_net = cv2.dnn.readNetFromCaffe("age_deploy.prototxt", "age_net.caffemodel")
 gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caffemodel")
