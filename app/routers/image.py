@@ -3,7 +3,7 @@ import numpy as np
 from fastapi import APIRouter, UploadFile, File, Depends
 
 from app.security.authorize import get_current_user, credentials_exception, oauth2_scheme
-from classifier import main
+import classifier.main as classifier
 
 """
     routers for image evaluation
