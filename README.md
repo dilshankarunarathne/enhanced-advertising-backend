@@ -27,7 +27,7 @@ The server side application for Enhanced Advertising system.
 - 
 
 
-pandas~=2.0.3
+
 
 ## Contributing
 
