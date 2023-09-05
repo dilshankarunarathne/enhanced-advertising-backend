@@ -36,4 +36,4 @@ async def evaluate_image(
 
     recommended_interest = interest_recommender.recommend_topic(age, gender)
 
-    return age, gender
+    return recommended_interest
