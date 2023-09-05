@@ -10,7 +10,7 @@ The server side application for Enhanced Advertising system.
 - [Python](https://www.python.org/) 3.7 or higher (tested with Python 3.11)
 - [pip](https://pip.pypa.io/en/stable/) 20.0 or higher
 - [FastAPI](https://fastapi.tiangolo.com/)
-- [uvicorn](https://www.uvicorn.org/)
+- [Uvicorn](https://www.uvicorn.org/)
 - [pydantic](https://pydantic-docs.helpmanual.io/)
 - [starlette](https://www.starlette.io/)
 - [passlib](https://passlib.readthedocs.io/en/stable/)
