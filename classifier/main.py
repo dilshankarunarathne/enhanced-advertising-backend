@@ -7,7 +7,8 @@ gender_net_caffemodel_path = os.path.join(os.path.dirname(__file__), '..', 'mode
 
 age_net = cv2.dnn.readNetFromCaffe(
     os.path.join(os.path.dirname(__file__), 'age_deploy.prototxt'), 
-    age_net_caffemodel_path)
+    age_net_caffemodel_path
+)
 
 gender_net = cv2.dnn.readNetFromCaffe(os.path.join(os.path.dirname(__file__), 'gender_deploy.prototxt'), os.path.join(os.path.dirname(__file__), 'gender_net.caffemodel'))
 
