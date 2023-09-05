@@ -1,1 +1,1 @@
-def predict_interest(age-group, gender):
+def predict_interest(age_group, gender):
