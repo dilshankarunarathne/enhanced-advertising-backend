@@ -33,4 +33,6 @@ async def evaluate_image(
 
     age, gender = classifier.predict_age_and_gender(img)
 
+    
+
     return age, gender
