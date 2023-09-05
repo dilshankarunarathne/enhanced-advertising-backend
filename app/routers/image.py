@@ -31,6 +31,6 @@ async def evaluate_image(
     nparray = np.fromstring(contents, np.uint8)
     img = cv2.imdecode(nparray, cv2.IMREAD_COLOR)
 
-    age, gender = main.predict_age_and_gender(img)
+    age, gender = classifier.predict_age_and_gender(img)
 
     return age, gender
