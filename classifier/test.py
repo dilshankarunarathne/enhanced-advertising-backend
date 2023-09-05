@@ -7,7 +7,6 @@ gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caff
 age_ranges = ["(0-2)", "(4-6)", "(8-12)", "(15-20)", "(25-32)", "(38-43)", "(48-53)", "(60-100)"]
 gender_labels = ["Male", "Female"]
 
-image = cv2.imread("image.jpg")
 
 
 def predict_age_and_gender(image):
