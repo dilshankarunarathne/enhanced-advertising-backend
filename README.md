@@ -26,9 +26,6 @@ The server side application for Enhanced Advertising system.
 - tensorflow~=2.13.0
 - pandas~=2.0.3
 
-
-
-
 ## Contributing
 
 If you'd like to contribute to this project, please check the contribution guidelines for more information.
