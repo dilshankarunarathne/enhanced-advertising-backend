@@ -24,7 +24,7 @@ The server side application for Enhanced Advertising system.
 - [Joblib](https://joblib.readthedocs.io/en/latest/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [tensorflow](https://www.tensorflow.org/)
-- [pandas](https://pandas.pydata.org/)
+- [Pandas](https://pandas.pydata.org/)
 
 ## Contributing
 
