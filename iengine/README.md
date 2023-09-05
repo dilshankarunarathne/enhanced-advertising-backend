@@ -21,15 +21,6 @@
 
 The `ad_topic_recommender` package is a simple tool that recommends interesting topics based on a person's age and gender. This documentation provides information on how to install and use the package, along with examples and other relevant details.
 
-## Installation
-
-You can install the `ad_topic_recommender` package using pip:
-
-```bash
-pip install ad-topic-recommender
-```
-
-
 
 
 ## Contributing
