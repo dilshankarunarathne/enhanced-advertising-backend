@@ -22,7 +22,6 @@ def predict_age_and_gender(image):
     return age, gender
 
 
-
 image = cv2.imread("image.jpg")
 
 age, gender = predict_age_and_gender(image)
