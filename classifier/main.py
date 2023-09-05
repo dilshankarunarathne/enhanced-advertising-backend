@@ -20,4 +20,3 @@ def predict_age_and_gender(image):
     gender = gender_labels[np.argmax(gender_preds)]
 
     return age, gender
-
