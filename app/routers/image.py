@@ -26,7 +26,9 @@ async def evaluate_image(
         raise credentials_exception
 
     contents = await image.read()
+    nparr = np.fromstring(contents, np.uint8)
+    img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
 
-    age, gender = main.predict_age_and_gender(contents)
+    age, gender = main.predict_age_and_gender(img)
 
     return "{age: ", age, ", gender: ", gender, "}"
