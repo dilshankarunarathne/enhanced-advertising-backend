@@ -5,6 +5,8 @@ This model is able to predict 31 unique topics with an accuracy of 0.85.
 [![Version](https://img.shields.io/badge/version-0.1-brightgreen.svg)](https://pypi.org/project/ad-topic-recommender/)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
+## Interests that can be predicted
+
 ## Contributing
 
 If you'd like to contribute to this project, please check the contribution guidelines for more information.
