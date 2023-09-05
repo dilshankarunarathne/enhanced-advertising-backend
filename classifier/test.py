@@ -22,7 +22,6 @@ def predict_age_and_gender(image):
 
     return age, gender
 
-# Get age and gender predictions
 age, gender = predict_age_and_gender(image)
 
 # Print the results
