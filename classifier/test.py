@@ -24,6 +24,5 @@ def predict_age_and_gender(image):
 
 age, gender = predict_age_and_gender(image)
 
-# Print the results
 print(f"Age: {age}")
 print(f"Gender: {gender}")
