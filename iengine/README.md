@@ -1,5 +1,5 @@
 # Ad Topic Recommendation System 
-An AI model for suggesting interested topics for social media advertising, based on the user's age and gender. 
+An AI model for suggesting interested topics for social media advertising, based on the user's age and gender.  
 
 
 [![Version](https://img.shields.io/badge/version-0.1-brightgreen.svg)](https://pypi.org/project/ad-topic-recommender/)
