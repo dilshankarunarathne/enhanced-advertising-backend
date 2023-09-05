@@ -4,9 +4,6 @@ This module uses pre-trained models to estimate the age and gender of a person i
 It utilizes both TensorFlow for age and gender estimation and OpenCV for face detection and landmarks extraction. 
 Additionally, it includes support for using Caffe models for age and gender estimation.
 
-The application will then prompt you to enter the path to the image you want to process. 
-After entering the path, the application will process the image and display the results.
-
 ## Dependencies
 
 - [TensorFlow](https://www.tensorflow.org/)
