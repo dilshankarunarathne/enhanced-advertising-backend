@@ -4,6 +4,7 @@ from fastapi import APIRouter, UploadFile, File, Depends
 
 from app.security.authorize import get_current_user, credentials_exception, oauth2_scheme
 import classifier.main as classifier
+from iengine.recommender import predict_interest
 
 """
     routers for image evaluation
