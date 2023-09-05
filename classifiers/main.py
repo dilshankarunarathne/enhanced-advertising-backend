@@ -5,6 +5,8 @@ import os
 age_net_caffemodel_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'age_net.caffemodel')
 gender_net_caffemodel_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'gender_net.caffemodel')
 
+
+
 age_net = cv2.dnn.readNetFromCaffe(
     os.path.join(os.path.dirname(__file__), '../prototxt/age_deploy.prototxt'),
     age_net_caffemodel_path
