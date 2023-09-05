@@ -1,6 +1,9 @@
+import cv2
+import numpy as np
 from fastapi import APIRouter, UploadFile, File, Depends
 
 from app.security.authorize import get_current_user, credentials_exception, oauth2_scheme
+from classifiers import main
 
 """
     routers for image evaluation
@@ -25,12 +28,9 @@ async def evaluate_image(
         raise credentials_exception
 
     contents = await image.read()
+    nparray = np.fromstring(contents, np.uint8)
+    img = cv2.imdecode(nparray, cv2.IMREAD_COLOR)
 
-    # TODO: send image to model for evaluation
-    with open("D:/image.jpg", "wb") as f:
-        f.write(contents)
+    age, gender = main.predict_age_and_gender(img)
 
-    age = 23  # TODO: get age from model
-    gender = 'Male'  # TODO: get gender from model
-
-    return "{age: ", age, ", gender: ", gender, "}"  # TODO: return ad data as well
+    return age, gender

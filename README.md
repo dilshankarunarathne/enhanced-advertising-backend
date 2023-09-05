@@ -7,16 +7,20 @@ The server side application source for Enhanced Advertising system.
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- pip 20.0 or higher
-- fastapi
-- uvicorn
-- pydantic
-- starlette
-- passlib
-- mysql
-- mysql-connector-python
-- python-jose[cryptography]
+- [Python](https://www.python.org/) 3.7 or higher (tested with Python 3.11)
+- [pip](https://pip.pypa.io/en/stable/) 20.0 or higher
+- [fastapi](https://fastapi.tiangolo.com/)
+- [uvicorn](https://www.uvicorn.org/)
+- [pydantic](https://pydantic-docs.helpmanual.io/)
+- [starlette](https://www.starlette.io/)
+- [passlib](https://passlib.readthedocs.io/en/stable/)
+- [mysql](https://www.mysql.com/)
+- [mysql-connector-python](https://dev.mysql.com/doc/connector-python/en/)
+- [python-jose[cryptography]](https://python-jose.readthedocs.io/en/latest/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [OpenCV](https://opencv.org/)
+- [Caffe](https://caffe.berkeleyvision.org/)
+- [NumPy](https://numpy.org/)
 
 ## Contributing
 
