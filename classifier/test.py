@@ -9,6 +9,7 @@ gender_labels = ["Male", "Female"]
 
 image = cv2.imread("image.jpg")
 
+
 def predict_age_and_gender(image):
     blob = cv2.dnn.blobFromImage(image, 1.0, (227, 227), (78.4263377603, 87.7689143744, 114.895847746), swapRB=False)
 
@@ -21,6 +22,7 @@ def predict_age_and_gender(image):
     gender = gender_labels[np.argmax(gender_preds)]
 
     return age, gender
+
 
 age, gender = predict_age_and_gender(image)
 
