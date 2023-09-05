@@ -13,7 +13,10 @@ def predict_interest(age_group: str, gender_string: str) -> str:
     else:
         raise ValueError
 
-    
+    # parse age
+    if age_group == '(0-2)':
+        age = 2
+    elif age_group == '(4-6)':
 
     return recommend_topic(age, gender)
 
