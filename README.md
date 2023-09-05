@@ -16,7 +16,7 @@ The server side application for Enhanced Advertising system.
 - [Passlib](https://passlib.readthedocs.io/en/stable/)
 - [MySQL](https://www.mysql.com/)
 - [mysql-connector-python](https://dev.mysql.com/doc/connector-python/en/)
-- [python-jose[cryptography]](https://python-jose.readthedocs.io/en/latest/)
+- [Jose](https://python-jose.readthedocs.io/en/latest/)
 - [TensorFlow](https://www.tensorflow.org/)
 - [OpenCV](https://opencv.org/)
 - [Caffe](https://caffe.berkeleyvision.org/)
