@@ -21,7 +21,7 @@ The server side application for Enhanced Advertising system.
 - [OpenCV](https://opencv.org/)
 - [Caffe](https://caffe.berkeleyvision.org/)
 - [NumPy](https://numpy.org/)
-- [joblib](https://joblib.readthedocs.io/en/latest/)
+- [Joblib](https://joblib.readthedocs.io/en/latest/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [tensorflow](https://www.tensorflow.org/)
 - [pandas](https://pandas.pydata.org/)
