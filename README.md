@@ -23,7 +23,7 @@ The server side application for Enhanced Advertising system.
 - [NumPy](https://numpy.org/)
 - [joblib](https://joblib.readthedocs.io/en/latest/)
 - [scikit-learn](https://scikit-learn.org/stable/)
-- [tensorflow~=2.13.0](https://www.tensorflow.org/)
+- [tensorflow](https://www.tensorflow.org/)
 - [pandas~=2.0.3](https://pandas.pydata.org/)
 
 ## Contributing
