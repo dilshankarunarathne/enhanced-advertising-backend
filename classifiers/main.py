@@ -10,8 +10,7 @@ gender_net_prototxt_path = os.path.join(os.path.dirname(__file__), '../prototxt/
 
 age_net = cv2.dnn.readNetFromCaffe(age_net_prototxt_path, age_net_caffemodel_path)
 
-gender_net = cv2.dnn.readNetFromCaffe(gender_net_prototxt_path, gender_net_caffemodel_path
-)
+gender_net = cv2.dnn.readNetFromCaffe(gender_net_prototxt_path, gender_net_caffemodel_path)
 
 age_ranges = ["(0-2)", "(4-6)", "(8-12)", "(15-20)", "(25-32)", "(38-43)", "(48-53)", "(60-100)"]
 gender_labels = ["Male", "Female"]
