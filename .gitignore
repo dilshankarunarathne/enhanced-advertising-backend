@@ -155,3 +155,4 @@ app/classifier/models/gender_net.caffemodel
 app/classifier/models/shape_predictor_68_face_landmarks.dat
 classifier/age_net.caffemodel
 classifier/gender_net.caffemodel
+classifier/image.jpg
