@@ -22,7 +22,7 @@ The server side application for Enhanced Advertising system.
 - [Caffe](https://caffe.berkeleyvision.org/)
 - [NumPy](https://numpy.org/)
 - [joblib](https://joblib.readthedocs.io/en/latest/)
-- [scikit-learn~=1.3.0](https://scikit-learn.org/stable/)
+- [scikit-learn](https://scikit-learn.org/stable/)
 - [tensorflow~=2.13.0](https://www.tensorflow.org/)
 - [pandas~=2.0.3](https://pandas.pydata.org/)
 
