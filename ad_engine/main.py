@@ -6,4 +6,3 @@ def get_ad_img(recommended_interest):
 
     with open(f"ad_engine/ads/{recommended_interest}.jpg", "rb") as f:
         return f.read()
-    return
