@@ -5,7 +5,7 @@ def predict_interest(age_group: str, gender_string: str) -> str:
     """
     :param age_group:
     :param gender_string:
-    :return:
+    :return: recommended interest
     """
     gender = None
     age = None
