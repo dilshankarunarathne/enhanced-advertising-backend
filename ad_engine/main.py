@@ -16,4 +16,4 @@ def get_ad_img_url(recommended_interest):
     :return: advertisement image url
     """
 
-    return "https://unstripped-diagonal.000webhostapp.com/banners/"
+    return "https://unstripped-diagonal.000webhostapp.com/banners/" + recommended_interest + ".jpg
