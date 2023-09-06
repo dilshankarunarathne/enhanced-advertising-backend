@@ -39,4 +39,4 @@ async def evaluate_image(
 
     ad = get_ad_img(recommended_interest)
 
-    return age, gender, recommended_interest
+    return age, gender, recommended_interest, ad
