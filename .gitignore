@@ -158,3 +158,5 @@ classifier/gender_net.caffemodel
 classifier/image.jpg
 models/age_net.caffemodel
 models/gender_net.caffemodel
+
+ad_engine/*.jpg
