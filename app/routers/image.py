@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from fastapi import APIRouter, UploadFile, File, Depends
 
+from ad_engine.main import get_ad_img
 from app.security.authorize import get_current_user, credentials_exception, oauth2_scheme
 import classifier.main as classifier
 from iengine.recommender import predict_interest
