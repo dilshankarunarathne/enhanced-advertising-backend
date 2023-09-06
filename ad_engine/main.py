@@ -10,4 +10,4 @@ def get_ad_img_data(recommended_interest):
         return f.read()
 
 
-def 
+def get_ad_img_url
