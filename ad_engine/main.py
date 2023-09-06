@@ -1,1 +1,1 @@
-def get_ad_img
+def get_ad_img(recommended_interest):
