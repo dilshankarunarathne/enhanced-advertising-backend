@@ -37,6 +37,6 @@ async def evaluate_image(
     recommended_interest = predict_interest(age, gender)
 
     # TODO: return ad based on recommended_interest
-    
+    ad =
 
     return age, gender, recommended_interest
