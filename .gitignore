@@ -159,4 +159,4 @@ classifier/image.jpg
 models/age_net.caffemodel
 models/gender_net.caffemodel
 
-ad_engine/*.jpg
+ad_engine/raw_ads/*.jpg
