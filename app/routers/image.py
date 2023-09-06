@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from fastapi import APIRouter, UploadFile, File, Depends
 
-from ad_engine.main import get_ad_img
+from ad_engine.main import get_ad_img_url
 from app.security.authorize import get_current_user, credentials_exception, oauth2_scheme
 import classifier.main as classifier
 from iengine.recommender import predict_interest
@@ -37,6 +37,6 @@ async def evaluate_image(
 
     recommended_interest = predict_interest(age, gender)
 
-    ad = get_ad_img(recommended_interest)
+    ad = get_ad_img_url(recommended_interest)
 
     return age, gender, recommended_interest, ad
