@@ -4,5 +4,7 @@ def get_ad_img(recommended_interest):
     :return: advertisement image
     """
 
-    with open("ad_engine/ads/{recommended_interest}.jpg", "rb") as f:
+    path = "ad_engine/ads/", recommended_interest, ".jpg"
+
+    with open(path.__str__(), "rb") as f:
         return f.read()
