@@ -13,7 +13,7 @@ def get_ad_img_data(recommended_interest):
 def get_ad_img_url(recommended_interest):
     """
     :param recommended_interest: string
-    :return: advertisement image
+    :return: advertisement image url
     """
 
-    return 
+    return
