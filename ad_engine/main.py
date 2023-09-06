@@ -10,4 +10,10 @@ def get_ad_img_data(recommended_interest):
         return f.read()
 
 
-def get_ad_img_url
+def get_ad_img_url(recommended_interest):
+    """
+    :param recommended_interest: string
+    :return: advertisement image
+    """
+
+    return 
