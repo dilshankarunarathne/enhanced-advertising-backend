@@ -3,7 +3,7 @@ from iengine.ad_recommender_package import recommend_topic
 
 def predict_interest(age_group: str, gender_string: str) -> str:
     """
-    :param age_group:
+    :param age_group:   (0-2), (4-6), (8-12), (15-20), (25-32), (38-43), (48-53), (60-100)
     :param gender_string:
     :return: recommended interest
     """
