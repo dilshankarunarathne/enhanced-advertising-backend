@@ -1,4 +1,4 @@
-def get_ad_img(recommended_interest):
+def get_ad_img_data(recommended_interest):
     """
     :param recommended_interest: string
     :return: advertisement image
