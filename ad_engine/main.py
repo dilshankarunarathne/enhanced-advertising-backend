@@ -8,3 +8,5 @@ def get_ad_img_data(recommended_interest):
 
     with open(path, "rb") as f:
         return f.read()
+
+
